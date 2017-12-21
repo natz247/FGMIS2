@@ -1,0 +1,10 @@
+C:\Users\Natz\documents\visual studio 2015\Projects\FGMIS\Domain\bin\Debug\Domain.dll
+C:\Users\Natz\documents\visual studio 2015\Projects\FGMIS\Domain\bin\Debug\Domain.pdb
+C:\Users\Natz\documents\visual studio 2015\Projects\FGMIS\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Natz\documents\visual studio 2015\Projects\FGMIS\Domain\obj\Debug\Domain.dll
+C:\Users\Natz\documents\visual studio 2015\Projects\FGMIS\Domain\obj\Debug\Domain.pdb
+C:\Users\Natz\Documents\Visual Studio 2013\Projects\FGMIS\Domain\bin\Debug\Domain.dll
+C:\Users\Natz\Documents\Visual Studio 2013\Projects\FGMIS\Domain\bin\Debug\Domain.pdb
+C:\Users\Natz\Documents\Visual Studio 2013\Projects\FGMIS\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Natz\Documents\Visual Studio 2013\Projects\FGMIS\Domain\obj\Debug\Domain.dll
+C:\Users\Natz\Documents\Visual Studio 2013\Projects\FGMIS\Domain\obj\Debug\Domain.pdb

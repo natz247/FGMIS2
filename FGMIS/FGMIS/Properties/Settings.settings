@@ -1,0 +1,44 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FGMIS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FGMISConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\FGMIS.accdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\FGMIS.accdb</Value>
+    </Setting>
+    <Setting Name="UID" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">999</Value>
+    </Setting>
+    <Setting Name="USERNAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAMPLE_USERNAME</Value>
+    </Setting>
+    <Setting Name="USERFIRSTNAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAMPLE_FIRST_NAME</Value>
+    </Setting>
+    <Setting Name="USERLASTNAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAMPLE_LAST_NAME</Value>
+    </Setting>
+    <Setting Name="USERPASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAMPLE_PASSWORD</Value>
+    </Setting>
+    <Setting Name="USERACCESSLEVEL" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="USERPOSITION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAMPLE_POSITION</Value>
+    </Setting>
+    <Setting Name="FIRSTRUN" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="USERORGANIZATION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAMPLE_ORGANIZATION</Value>
+    </Setting>
+    <Setting Name="USERPARTNER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAMPLE_PARTNER</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

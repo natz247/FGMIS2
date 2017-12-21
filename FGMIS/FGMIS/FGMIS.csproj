@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C03A8EBC-A661-43A6-A39F-9036AB120F69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FGMIS</RootNamespace>
+    <AssemblyName>FGMIS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.ChartView, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityBrowser.Designer.cs">
+      <DependentUpon>ActivityBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActivitySelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivitySelector.Designer.cs">
+      <DependentUpon>ActivitySelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckInternet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckInternet.Designer.cs">
+      <DependentUpon>CheckInternet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CircularProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenericVariables.cs" />
+    <Compile Include="ManageLocations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageLocations.Designer.cs">
+      <DependentUpon>ManageLocations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePreviousYearData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePreviousYearData.Designer.cs">
+      <DependentUpon>ManagePreviousYearData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePartners.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePartners.Designer.cs">
+      <DependentUpon>ManagePartners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageOrganizations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageOrganizations.Designer.cs">
+      <DependentUpon>ManageOrganizations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUsers.Designer.cs">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FGMISDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FGMISDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIClientSupport.cs" />
+    <Compile Include="MessageList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MessageList.Designer.cs">
+      <DependentUpon>MessageList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report1.Designer.cs">
+      <DependentUpon>Report1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportSelector.Designer.cs">
+      <DependentUpon>ReportSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServerAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServerAddress.Designer.cs">
+      <DependentUpon>ServerAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolidColorBrush.cs" />
+    <Compile Include="StringCipher.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivityBrowser.resx">
+      <DependentUpon>ActivityBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActivitySelector.resx">
+      <DependentUpon>ActivitySelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckInternet.resx">
+      <DependentUpon>CheckInternet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageLocations.resx">
+      <DependentUpon>ManageLocations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePreviousYearData.resx">
+      <DependentUpon>ManagePreviousYearData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePartners.resx">
+      <DependentUpon>ManagePartners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageOrganizations.resx">
+      <DependentUpon>ManageOrganizations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageList.resx">
+      <DependentUpon>MessageList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.resx">
+      <DependentUpon>Report1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSelector.resx">
+      <DependentUpon>ReportSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerAddress.resx">
+      <DependentUpon>ServerAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FGMISDataSet.xsc">
+      <DependentUpon>FGMISDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FGMISDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FGMISDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FGMISDataSet.xss">
+      <DependentUpon>FGMISDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{b10e091f-4bf4-43ac-aaa6-772de284dda9}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Session\Session.csproj">
+      <Project>{1d58da10-9535-49f8-88c0-34e8df528f79}</Project>
+      <Name>Session</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FGMIS.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\read.png" />
+    <None Include="Resources\unread.png" />
+    <None Include="Resources\21.png" />
+    <None Include="Resources\activities2.png" />
+    <None Include="Resources\01.png" />
+    <None Include="Resources\reports2.png" />
+    <None Include="Resources\activities1.png" />
+    <None Include="Resources\reports1.png" />
+    <None Include="Resources\dash1.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\0.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\reports.png" />
+    <None Include="Resources\activities.png" />
+    <None Include="Resources\dash.png" />
+    <None Include="Resources\menu-4.png" />
+    <None Include="Resources\add_16.png" />
+    <None Include="Resources\database_link_16.png" />
+    <None Include="Resources\arrow_refresh_16.png" />
+    <None Include="Resources\disk_16.png" />
+    <None Include="Resources\link_16.png" />
+    <EmbeddedResource Include="Resources\Renogare-Regular.otf" />
+    <None Include="Resources\status_online.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\application_cascade.png" />
+    <None Include="Resources\application_form.png" />
+    <None Include="Resources\key_16.png" />
+    <None Include="Resources\logo_2.png" />
+    <None Include="Resources\disk_24.png" />
+    <None Include="Resources\cross_16.png" />
+    <None Include="Resources\penci_24l.png" />
+    <None Include="Resources\penci_16l.png" />
+    <None Include="Resources\page_go.png" />
+    <None Include="Resources\cross_24.png" />
+    <None Include="Resources\add_24.png" />
+    <None Include="Resources\application_add.png" />
+    <None Include="Resources\application_view_tile.png" />
+    <None Include="Resources\bell.png" />
+    <None Include="Resources\chat.png" />
+    <None Include="Resources\file-1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

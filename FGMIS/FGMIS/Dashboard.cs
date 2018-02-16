@@ -34,6 +34,8 @@ namespace FGMIS
         int DUMMY_2 = 1723;
         int DUMMY_3 = 23;
         int DUMMY_ACTIVITY = 27;
+        
+        //constructor
         public Dashboard()
         {
             InitializeComponent();
